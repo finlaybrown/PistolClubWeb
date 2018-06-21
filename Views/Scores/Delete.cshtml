@@ -1,0 +1,87 @@
+﻿@model ScoringSystem.Models.Score
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Score</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.StageName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StageName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Points)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Points)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Penalty)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Penalty)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Time)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Time)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.HitFactor)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.HitFactor)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ShootDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ShootDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.StagePoints)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StagePoints)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Division)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Division.DivisionName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Grade)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Grade.GradeName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Power)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Power.PowerName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.User)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.User.Email)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ScoreID" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

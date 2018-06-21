@@ -1,0 +1,24 @@
+C:\Users\Finlay Brown\Documents\Web Applications\ScoringSystem\ScoringSystem\bin\Debug\netcoreapp2.0\ScoringSystem.deps.json
+C:\Users\Finlay Brown\Documents\Web Applications\ScoringSystem\ScoringSystem\bin\Debug\netcoreapp2.0\ScoringSystem.runtimeconfig.json
+C:\Users\Finlay Brown\Documents\Web Applications\ScoringSystem\ScoringSystem\bin\Debug\netcoreapp2.0\ScoringSystem.runtimeconfig.dev.json
+C:\Users\Finlay Brown\Documents\Web Applications\ScoringSystem\ScoringSystem\bin\Debug\netcoreapp2.0\ScoringSystem.dll
+C:\Users\Finlay Brown\Documents\Web Applications\ScoringSystem\ScoringSystem\bin\Debug\netcoreapp2.0\ScoringSystem.pdb
+C:\Users\Finlay Brown\Documents\Web Applications\ScoringSystem\ScoringSystem\obj\Debug\netcoreapp2.0\ScoringSystem.csprojAssemblyReference.cache
+C:\Users\Finlay Brown\Documents\Web Applications\ScoringSystem\ScoringSystem\obj\Debug\netcoreapp2.0\ScoringSystem.csproj.CoreCompileInputs.cache
+C:\Users\Finlay Brown\Documents\Web Applications\ScoringSystem\ScoringSystem\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Finlay Brown\Documents\Web Applications\ScoringSystem\ScoringSystem\obj\Debug\netcoreapp2.0\ScoringSystem.AssemblyInfoInputs.cache
+C:\Users\Finlay Brown\Documents\Web Applications\ScoringSystem\ScoringSystem\obj\Debug\netcoreapp2.0\ScoringSystem.AssemblyInfo.cs
+C:\Users\Finlay Brown\Documents\Web Applications\ScoringSystem\ScoringSystem\obj\Debug\netcoreapp2.0\ScoringSystem.dll
+C:\Users\Finlay Brown\Documents\Web Applications\ScoringSystem\ScoringSystem\obj\Debug\netcoreapp2.0\ScoringSystem.pdb
+C:\Users\Finlay Brown\Desktop\ScoringSystem\ScoringSystem\bin\Debug\netcoreapp2.0\ScoringSystem.deps.json
+C:\Users\Finlay Brown\Desktop\ScoringSystem\ScoringSystem\bin\Debug\netcoreapp2.0\ScoringSystem.runtimeconfig.json
+C:\Users\Finlay Brown\Desktop\ScoringSystem\ScoringSystem\bin\Debug\netcoreapp2.0\ScoringSystem.runtimeconfig.dev.json
+C:\Users\Finlay Brown\Desktop\ScoringSystem\ScoringSystem\bin\Debug\netcoreapp2.0\ScoringSystem.dll
+C:\Users\Finlay Brown\Desktop\ScoringSystem\ScoringSystem\bin\Debug\netcoreapp2.0\ScoringSystem.pdb
+C:\Users\Finlay Brown\Desktop\ScoringSystem\ScoringSystem\obj\Debug\netcoreapp2.0\ScoringSystem.csprojAssemblyReference.cache
+C:\Users\Finlay Brown\Desktop\ScoringSystem\ScoringSystem\obj\Debug\netcoreapp2.0\ScoringSystem.csproj.CoreCompileInputs.cache
+C:\Users\Finlay Brown\Desktop\ScoringSystem\ScoringSystem\obj\Debug\netcoreapp2.0\ScoringSystem.AssemblyInfoInputs.cache
+C:\Users\Finlay Brown\Desktop\ScoringSystem\ScoringSystem\obj\Debug\netcoreapp2.0\ScoringSystem.AssemblyInfo.cs
+C:\Users\Finlay Brown\Desktop\ScoringSystem\ScoringSystem\obj\Debug\netcoreapp2.0\ScoringSystem.dll
+C:\Users\Finlay Brown\Desktop\ScoringSystem\ScoringSystem\obj\Debug\netcoreapp2.0\ScoringSystem.pdb
+C:\Users\Finlay Brown\Desktop\ScoringSystem\ScoringSystem\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs

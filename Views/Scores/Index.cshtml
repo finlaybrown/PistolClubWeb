@@ -1,0 +1,128 @@
+﻿@model IEnumerable<ScoringSystem.Models.Score>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Results Data</h2>
+
+<p>
+    @if (User.IsInRole("Admin"))
+    {
+        <a asp-action="Create">Create New</a>
+    }
+</p>
+
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Find by Stage Name: <input type="text" name="SearchString" value="@ViewData["currentFilter"]" />
+            <input type="submit" value="Search" class="btn btn-default" />
+        </p>
+    </div>
+    <div class="form-actions no-color">
+        <p>
+            Find by Stage Date: <input type="date" name="dateString" value="@ViewData["dateFilter"]" />
+            <input type="submit" value="Search" class="btn btn-default" />
+        </p>
+    </div>
+    <div class="form-actions no-color">
+        <p>
+            Find by Member: <input type="text" name="MemberString" value="@ViewData["memberFilter"]" />
+            <input type="submit" value="Search" class="btn btn-default" /> |
+            <a asp-action="Index">Back to Full List</a>
+        </p>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.StageName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Points)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Penalty)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Time)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HitFactor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StagePoints)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ShootDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Division)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Grade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Power)
+            </th>
+            @if (User.IsInRole("Admin"))
+            {
+                <th></th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StageName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.User.UserFirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Points)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Penalty)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Time)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HitFactor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StagePoints)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ShootDate.Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Division.DivisionName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Grade.GradeName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Power.PowerName)
+                </td>
+                @if (User.IsInRole("Admin"))
+                {
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.ScoreID">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.ScoreID">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.ScoreID">Delete</a>
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>
